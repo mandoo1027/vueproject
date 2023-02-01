@@ -83,11 +83,11 @@ module.exports = {
   },
   axios: {
     proxy: true
-  },
-  proxy: {
-    "/api": {
-      target: "http://hdo.gzonesoft.co.kr:9032",
-      changeOrigin: true
-    }
   }
+  // proxy: {
+  //   "/api": {
+  //     target: "http://hdo.gzonesoft.co.kr:9032",
+  //     changeOrigin: true
+  //   }
+  // }
 };
